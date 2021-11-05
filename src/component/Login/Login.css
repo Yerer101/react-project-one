@@ -1,0 +1,55 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 2px;
+  /* border: 1px solid red; */
+}
+
+.input-userName input {
+  background-color: red;
+  width: 100%;
+  padding: 6px 7px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-password input {
+  width: 100%;
+  padding: 6px 7px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.login > :only-child {
+  width: 100%;
+  color: var(--ye-back);
+}
+.login :hover {
+  background-color: black;
+}
+
+@media only screen and (min-width: 580px) {
+  .form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 42px;
+  }
+
+  .form > div {
+    margin-right: 5px;
+  }
+
+  .input-userName {
+    width: 190px;
+  }
+  .input-password {
+    width: 190px;
+  }
+  .login {
+    width: 90px;
+    margin: 1px;
+  }
+}
