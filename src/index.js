@@ -1,8 +1,8 @@
-import React from "react"
-import ReactDOM from "react-dom"
-import "./index.css"
-import App from "./App"
-import { BrowserRouter as Router } from "react-router-dom"
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import { BrowserRouter as Router } from "react-router-dom";
 // import * as serviceWorker from "./serviceWorker"
 
 ReactDOM.render(
@@ -12,4 +12,8 @@ ReactDOM.render(
     </Router>
   </React.StrictMode>,
   document.getElementById("root")
-)
+);
+
+// "deploy": "npm run build&&gh-pages -d build"
+
+// "homepage": "https://Yerer101.github.io",
