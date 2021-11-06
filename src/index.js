@@ -13,7 +13,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
-
-// "deploy": "npm run build&&gh-pages -d build"
-
-// "homepage": "https://Yerer101.github.io",
