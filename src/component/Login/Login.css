@@ -1,13 +1,18 @@
+.container {
+  padding-bottom: 3px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  /* background-color: black; */
+}
+
 .form {
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-  padding: 2px;
-  /* border: 1px solid red; */
+  padding: 0 9px;
+}
+
+.form :only-child {
+  margin-top: 2px;
 }
 
 .input-userName input {
-  background-color: red;
   width: 100%;
   padding: 6px 7px;
   box-sizing: border-box;
@@ -25,6 +30,8 @@
 .login > :only-child {
   width: 100%;
   color: var(--ye-back);
+  padding: 7px;
+  margin-top: 3px;
 }
 .login :hover {
   background-color: black;
@@ -35,11 +42,12 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    padding: 0;
     height: 42px;
   }
 
   .form > div {
-    margin-right: 5px;
+    margin-right: 8px;
   }
 
   .input-userName {

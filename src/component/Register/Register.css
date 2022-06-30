@@ -1,7 +1,7 @@
 .register-container {
+  /* display: flex;
+  flex-direction: column; */
   margin: 0 20px;
-  display: flex;
-  flex-direction: column;
   /* border: 1px solid red; */
   /* justify-content: flex-end; */
 }
@@ -18,7 +18,7 @@
   font-size: 30px;
 }
 
-.singup-btn {
+.signup-btn {
   width: 100%;
   margin-top: 10px;
 }

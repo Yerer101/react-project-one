@@ -2,8 +2,7 @@ import React from "react";
 import "../css/w3.css";
 import Topnav from "../component/Topnav/Topnav";
 import Register from "../component/Register/Register";
-// import Top from "../component/Top/Top"
-// import LeftNav from "../component/LeftNav/LeftNav";
+import images from "../assets/ecommerce.jpg";
 
 export const Home = () => {
   return (
@@ -11,8 +10,13 @@ export const Home = () => {
       <div>
         <Topnav />
       </div>
-      <div>
-        <Register />
+      <div className="home-container">
+        <div>
+          <Register />
+        </div>
+        <div>
+          <img src={images} alt="Logo" />
+        </div>
       </div>
     </div>
   );

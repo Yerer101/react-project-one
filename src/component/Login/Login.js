@@ -14,7 +14,7 @@ export default function Login() {
   };
 
   return (
-    <div>
+    <div className="container">
       <form onSubmit={handleSubmit(onSubmit)} className="input-container ">
         <div className="form">
           <div className="input-userName">
@@ -38,7 +38,6 @@ export default function Login() {
               type="submit"
               value="Log-In"
               className="w3-btn w3-round w3-mycolor w3-hover-black login"
-              // className="w3-btn w3-mycolor login"
             />
           </div>
         </div>

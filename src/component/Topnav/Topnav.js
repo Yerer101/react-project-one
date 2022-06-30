@@ -1,7 +1,7 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./Topnav.css";
 import Login from "../Login/Login";
-import { Link } from "react-router-dom";
 
 class Topnav extends Component {
   forgotPassword = () => (
@@ -13,11 +13,7 @@ class Topnav extends Component {
   render() {
     return (
       <div>
-        <div className="login-container">
-          <div>
-            <Login />
-          </div>
-        </div>
+        <Login />
         <div className="forgotpassword-container">{this.forgotPassword()}</div>
       </div>
     );

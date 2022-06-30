@@ -2,14 +2,13 @@ import React from "react";
 import "./Register.css";
 import { useForm } from "react-hook-form";
 import RegisterTemplate from "./RegisterTemplate";
-// import { Sale } from "../../pages/Sale"
 
 const Register = () => {
   const { register, handleSubmit } = useForm();
-
   const onSubmit = (data) => {
     alert(JSON.stringify(data));
   };
+  const verifiably = () => {};
 
   return (
     <div className="register-container">
@@ -40,8 +39,9 @@ const Register = () => {
         />
         <input
           type="submit"
-          value="Sing Up"
-          className="w3-button w3-round w3-hover-black w3-mycolor singup-btn"
+          value="Sign Up"
+          onClick={verifiably}
+          className="w3-button w3-round w3-hover-black w3-mycolor signup-btn"
         />
       </form>
     </div>
